@@ -16,9 +16,9 @@ describe('splitArray', function () {
 
   it('should return equal length arrays with a final array of the remainder value when devised by an odd number', 
   function () {
-    const test_array = [1, 2, 3, 4, 5]
+    const test_array = [1, 2, 3, 4, 5, 6, 7]
     const integer = 3
-    const expected = [[1, 2], [3, 4], [5]]
+    const expected = [[1, 2, 3], [4, 5, 6], [7]]
     expect(splitArray(test_array, integer)).toEqual(expected)
   })
 
