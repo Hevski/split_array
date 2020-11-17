@@ -1,0 +1,15 @@
+{
+  "name": "tech_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "splitArray.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
