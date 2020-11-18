@@ -36,13 +36,11 @@ describe('splitArray', function () {
     expect(splitArray(test_array, integer)).toEqual(expected)
   })
 
-  it('should return an empty array if integer os 0', function () {
+  it('should return an empty array if integer is 0', function () {
     const test_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     const integer = 0
     const expected = []
     expect(splitArray(test_array, integer)).toEqual(expected)
   })
-
-  //tests for given array and integer
 
 });
